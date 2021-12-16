@@ -1,12 +1,16 @@
 const path = require("path");
 
+function resolve(file) {
+  return path.resolve(process.cwd(), file);
+}
+
 module.exports = {
   mode: "production",
   entry: {
-    main: path.resolve(process.cwd(), "./src/index.ts"),
+    main: resolve("./src"),
   },
   output: {
-    path: path.resolve(process.cwd(), "./lib"),
+    path: resolve("./lib"),
     libraryTarget: "commonjs",
   },
   resolve: {
