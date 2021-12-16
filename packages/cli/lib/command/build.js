@@ -2,17 +2,17 @@ const ora = require("ora");
 const consola = require("consola");
 const webpack = require("webpack");
 
-const config = require("../config/webpack.config");
+const config = require("../config/build");
 
 const build = () => {
-  const spinner = ora("组件打包开始build...").start();
+  const spinner = ora("component start build...").start();
   webpack(config, (err, stats) => {
     if (err || stats.hasErrors()) {
-      spinner.fail("build失败");
+      spinner.fail("build fail");
       consola.error(err || stats.toString());
       return;
     }
-    spinner.succeed("build成功");
+    spinner.succeed("build success");
   });
 };
 

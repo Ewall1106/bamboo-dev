@@ -1,7 +1,7 @@
 {
   "name": "@bamboo-dev/cli",
-  "version": "0.0.0",
-  "description": "> TODO: description",
+  "version": "0.0.1",
+  "description": "Bamboo cli - to develop && build custom components",
   "author": "Ewall Xiong",
   "homepage": "https://github.com/Ewall1106/bamboo-dev/tree/main/packages/cli#readme",
   "license": "ISC",
@@ -30,15 +30,20 @@
     "url": "https://github.com/Ewall1106/bamboo-dev/issues"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "commander": "^8.3.0",
     "consola": "^2.15.3",
     "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "ora": "5.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.4",
     "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   }
 }
