@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ewall1106/bamboo-assets.git"
+    "url": "git+https://github.com/Ewall1106/bamboo-dev.git"
   },
   "scripts": {
     "dev": "gulp"
   },
   "bugs": {
-    "url": "https://github.com/Ewall1106/bamboo-assets/issues"
+    "url": "https://github.com/Ewall1106/bamboo-dev/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
