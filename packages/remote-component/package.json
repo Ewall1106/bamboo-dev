@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "author": "Ewall Xiong",
-  "homepage": "https://github.com/Ewall1106/bamboo-assets/tree/main/packages/basic-text#readme",
+  "homepage": "https://github.com/Ewall1106/bamboo-assets/tree/main/packages/remote-component#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -34,7 +34,12 @@
     "gulp-babel": "^8.0.0",
     "gulp-less": "^5.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "react": "^17.0.2",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@paciolan/remote-component": "^2.12.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   }
 }

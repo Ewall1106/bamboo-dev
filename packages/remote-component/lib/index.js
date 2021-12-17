@@ -1,5 +1,4 @@
 import React from "react";
-export const Text = () => {
-  return React.createElement("span", null, "this is text");
-};
-export default Text;
+import { Component } from "./remote-component";
+export const RemoteComponent = props => React.createElement(Component, Object.assign({}, props), props.children);
+export default RemoteComponent;

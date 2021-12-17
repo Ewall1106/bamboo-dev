@@ -1,7 +1,9 @@
 import React from "react";
 
-export const Text = () => {
-  return <span>this is text</span>;
-};
+import { Component } from "./remote-component";
 
-export default Text;
+export const RemoteComponent = (props: any) => (
+  <Component {...props}>{props.children}</Component>
+);
+
+export default RemoteComponent;

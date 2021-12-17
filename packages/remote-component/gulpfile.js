@@ -31,7 +31,7 @@ function buildES() {
     module: "ESNext",
   });
   return gulp
-    .src(["src/**/*.{ts,tsx}"], {
+    .src(["src/**/*.{js,ts,tsx}"], {
       ignore: ["**/demos/**/*", "**/tests/**/*"],
     })
     .pipe(tsProject)
