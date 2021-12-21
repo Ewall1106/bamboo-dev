@@ -7,7 +7,7 @@ function resolve(file) {
 module.exports = {
   mode: "production",
   entry: {
-    main: resolve("./src"),
+    index: resolve("./src"),
   },
   output: {
     path: resolve("./lib"),
